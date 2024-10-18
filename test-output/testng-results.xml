@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T15:53:35 IST" name="Suite" finished-at="2024-07-17T15:53:49 IST" duration-ms="14220">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T15:53:35 IST" name="Test" finished-at="2024-07-17T15:53:49 IST" duration-ms="14220">
+      <class name="api.test.DDTest">
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:38 IST" name="createUser" data-provider="Data" finished-at="2024-07-17T15:53:42 IST" duration-ms="4619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Iron]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Man]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ironman1001@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:42 IST" name="createUser" data-provider="Data" finished-at="2024-07-17T15:53:44 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10202]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pool]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[deadpool1002@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@02]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567892]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:44 IST" name="createUser" data-provider="Data" finished-at="2024-07-17T15:53:45 IST" duration-ms="1160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Captain]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[America]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[captainamerica@1003@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567893]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:45 IST" name="deleteUser" data-provider="userNames" finished-at="2024-07-17T15:53:47 IST" duration-ms="1622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:47 IST" name="deleteUser" data-provider="userNames" finished-at="2024-07-17T15:53:48 IST" duration-ms="1425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.test.DDTest@5be1d0a4]" started-at="2024-07-17T15:53:48 IST" name="deleteUser" data-provider="userNames" finished-at="2024-07-17T15:53:49 IST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.test.DDTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
